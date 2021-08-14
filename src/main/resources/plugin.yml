@@ -1,0 +1,29 @@
+name: EcoDataBridge
+main: jp.minecraftuser.ecodatabridge.EcoDataBridge
+version: ${project.version}
+depend: [EcoFramework]
+commands:
+  edb:
+    description: edb command root
+    usage: /edb reload
+    permission: ecodatabridge
+  edb reload:
+    description: reload config.yml
+    usage: /edb reload
+    permission: ecodatabridge.reload
+  edb sace:
+    description: save player inventory
+    usage: /edb save
+    permission: ecodatabridge.save
+  edb load:
+    description: load player inventory
+    usage: /edb load
+    permission: ecodatabridge.load
+  edb join:
+    description: join player data server 
+    usage: /edb join
+    permission: ecodatabridge.join
+  edb leave:
+    description: leave player data server 
+    usage: /edb leave
+    permission: ecodatabridge.leave

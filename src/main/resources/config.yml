@@ -1,0 +1,9 @@
+server:
+  name: "lobby"
+playerdb:
+  use: false
+  db: "sqlite"
+  name: "vote.db"
+  server: "localhost:port"
+  user: "user"
+  pass: "pass"
